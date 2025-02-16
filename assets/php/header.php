@@ -40,10 +40,10 @@
 
         <!-- Social Icons -->
         <ul class="icons">
-            <li><a target="_blank" href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-            <li><a target="_blank" href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+            <!--<li><a target="_blank" href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>-->
+            <!--<li><a target="_blank" href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>-->
             <li><a target="_blank" href="https://github.com/MattyPersil" class="icon brands fa-github"><span class="label">Github</span></a></li>
-            <li><a target="_blank" href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
+            <!--<li><a target="_blank" href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>-->
             <li><a href="mailto:matthieumm444444@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
         </ul>
 

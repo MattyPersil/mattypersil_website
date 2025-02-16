@@ -2264,6 +2264,10 @@ input, select, textarea {
 				background-color: #ebe8ed;
 			}
 
+			#main > section.five {
+				background-color: #dad5de;
+			}
+
 /* Wide */
 
 	@media screen and (min-width: 961px) and (max-width: 1880px) {
@@ -2632,3 +2636,21 @@ input, select, textarea {
 				}
 
 	}
+
+
+
+#matrixContainer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 200px; /* Hauteur de la bannière */
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+	background: black;
+}
+
+canvas {
+	width: 100%;
+	height: 100%;
+}

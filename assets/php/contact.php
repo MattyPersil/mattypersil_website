@@ -1,6 +1,6 @@
 
 <!-- Contact -->
-<section id="contact" class="four">
+<section id="contact" class="five">
     <div class="container">
 
         <header>

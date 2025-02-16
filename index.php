@@ -1,8 +1,10 @@
 <?php
-$header_content = '<li><a href="#top" id="top-link"><span class="icon solid fa-home">Intro</span></a></li>
-                   <li><a href="#portfolio" id="portfolio-link"><span class="icon solid fa-th">Portfolio</span></a></li>
+$header_content = '<li><a href="#welcome" id="top-link"><span class="icon solid fa-home">Welcome</span></a></li>
+                   <li><a href="#introduction" id="portfolio-link"><span class="icon solid fa-th">What do i do ?</span></a></li>
                    <li><a href="#about" id="about-link"><span class="icon solid fa-user">About Me</span></a></li>
-                   <li><a href="#contact" id="contact-link"><span class="icon solid fa-envelope">Contact</span></a></li>';
+                   <li><a href="#documentation" id="doc-link"><span class="icon solid fa-book">Documentation</span></a></li>  
+                   <li><a href="#contact" id="contact-link"><span class="icon solid fa-envelope">Contact</span></a></li>
+                   ';
 $title = "MattyPersil Homepage";
 include "assets/php/header.php";
 ?>
@@ -10,91 +12,90 @@ include "assets/php/header.php";
 		<!-- Main -->
 			<div id="main">
 
-				<!-- Intro -->
-					<section id="top" class="one dark cover">
+				<!-- Welcome -->
+					<section id="welcome" class="one dark cover">
 						<div class="container">
 
 							<header>
-								<h2 class="alt">Hi! I'm <strong>Prologue</strong>, a <a href="http://html5up.net/license">free</a> responsive<br />
-								site template designed by <a href="http://html5up.net">HTML5 UP</a>.</h2>
-								<p>Ligula scelerisque justo sem accumsan diam quis<br />
-								vitae natoque dictum sollicitudin elementum.</p>
+								<h2 class="alt">Hello ! I'm <strong>MattyPersil</strong>, computer science student in France, Nantes.
+                                <br> Welcome to my website !</h2>
+								<p>I love the subjects i'm studying, and i also do a few things by myself on my freetime,
+                                <br>like this website !</p>
 							</header>
 
 							<footer>
-								<a href="#portfolio" class="button scrolly">Magna Aliquam</a>
+								<a href="#introduction" class="button scrolly">Discover what i do</a>
 							</footer>
 
 						</div>
 					</section>
 
-				<!-- Portfolio -->
-					<section id="portfolio" class="two">
+				<!-- Introduction -->
+					<section id="introduction" class="two">
 						<div class="container">
 
 							<header>
-								<h2>Portfolio</h2>
+								<h2>What do i do ?</h2>
 							</header>
 
-							<p>Vitae natoque dictum etiam semper magnis enim feugiat convallis convallis
-							egestas rhoncus ridiculus in quis risus amet curabitur tempor orci penatibus.
-							Tellus erat mauris ipsum fermentum etiam vivamus eget. Nunc nibh morbi quis
-							fusce hendrerit lacus ridiculus.</p>
+							<h3>
+                                As said earlier, i am studying computer science !
+                            </h3>
 
-							<div class="row">
-								<div class="col-4 col-12-mobile">
-									<article class="item">
-										<a href="#" class="image fit"><img src="images/pic02.jpg" alt="" /></a>
-										<header>
-											<h3>Ipsum Feugiat</h3>
-										</header>
-									</article>
-									<article class="item">
-										<a href="#" class="image fit"><img src="images/pic03.jpg" alt="" /></a>
-										<header>
-											<h3>Rhoncus Semper</h3>
-										</header>
-									</article>
-								</div>
-								<div class="col-4 col-12-mobile">
-									<article class="item">
-										<a href="#" class="image fit"><img src="images/pic04.jpg" alt="" /></a>
-										<header>
-											<h3>Magna Nullam</h3>
-										</header>
-									</article>
-									<article class="item">
-										<a href="#" class="image fit"><img src="images/pic05.jpg" alt="" /></a>
-										<header>
-											<h3>Natoque Vitae</h3>
-										</header>
-									</article>
-								</div>
-								<div class="col-4 col-12-mobile">
-									<article class="item">
-										<a href="#" class="image fit"><img src="images/pic06.jpg" alt="" /></a>
-										<header>
-											<h3>Dolor Penatibus</h3>
-										</header>
-									</article>
-									<article class="item">
-										<a href="#" class="image fit"><img src="images/pic07.jpg" alt="" /></a>
-										<header>
-											<h3>Orci Convallis</h3>
-										</header>
-									</article>
-								</div>
-							</div>
+                            <!--<a class="image featured"><img src="images/code.jpg" alt="" /></a>-->
+
+                            <div id="matrixContainer">
+                                <canvas id="matrixCanvas"></canvas>
+                            </div>
+
+
+                            <h3>Programming</h3>
+                            <p>
+                                I'm currently in the first year of my studies, i have done a few projects at various occasions
+                                in various languages, the ones i used the most in school are : Php, Html/Css, C++, sql and python,
+                                in addition, i am personally learning a bit of rust and javascript.
+                            </p>
+                            <h3>Networks and infrastructure</h3>
+                            <p>
+                                Other than programming in a few languages, i really love working with Infrastructure, Systems and
+                                Networks Solutions. To explain, i have an option with my studies : "BTS SIO" (Brevet de technicien supérieur
+                                Service Informatique aux Organisations) with speciality "SISR" (Solution d'Infrastructure Système et Réseau).
+                                With this option i really learn a lot more things about networks, virtual machines, etc..
+                                <br>
+                                To illustrate   this part, i am creating a home made infrastructure hosting a few virtual machines : websites,
+                                a discord bot and monitoring with the help of the Proxmox Linux distribution and virtual machines under
+                                Debian distributions.
+                            </p>
 
 						</div>
 					</section>
 
-				<!-- About Me -->
-					<section id="about" class="three">
+                <!-- About Me -->
+                <section id="about" class="three">
+                    <div class="container">
+
+                        <header>
+                            <h2>About Me</h2>
+                        </header>
+
+                        <a href="#" class="image featured"><img src="images/pic08.jpg" alt="" /></a>
+
+                        <p>Tincidunt eu elit diam magnis pretium accumsan etiam id urna. Ridiculus
+                            ultricies curae quis et rhoncus velit. Lobortis elementum aliquet nec vitae
+                            laoreet eget cubilia quam non etiam odio tincidunt montes. Elementum sem
+                            parturient nulla quam placerat viverra mauris non cum elit tempus ullamcorper
+                            dolor. Libero rutrum ut lacinia donec curae mus vel quisque sociis nec
+                            ornare iaculis.</p>
+
+                    </div>
+                </section>
+
+				<!-- Documentation -->
+					<section id="documentation" class="four">
 						<div class="container">
 
 							<header>
-								<h2>About Me</h2>
+								<h2>Documentation</h2>
 							</header>
 
 							<a href="#" class="image featured"><img src="images/pic08.jpg" alt="" /></a>
@@ -111,4 +112,42 @@ include "assets/php/header.php";
                 <?php include "assets/php/contact.php"?>
 			</div>
 
+
+
+    <script>
+        const canvas = document.getElementById("matrixCanvas");
+        const ctx = canvas.getContext("2d");
+
+        const container = document.getElementById("matrixContainer");
+        canvas.width = container.offsetWidth;
+        canvas.height = container.offsetHeight;
+
+
+        const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789@#$%^&*";
+        const fontSize = 16;
+        const columns = canvas.width / fontSize;
+        const drops = Array(Math.floor(columns)).fill(1);
+
+        function drawMatrix() {
+            ctx.fillStyle = "rgba(0, 0, 0, 0.05)";
+            ctx.fillRect(0, 0, canvas.width, canvas.height);
+            ctx.fillStyle = "#0F0";
+            ctx.font = `${fontSize}px monospace`;
+
+            for (let i = 0; i < drops.length; i++) {
+                const text = letters[Math.floor(Math.random() * letters.length)];
+                ctx.fillText(text, i * fontSize, drops[i] * fontSize);
+                if (drops[i] * fontSize > canvas.height && Math.random() > 0.975) {
+                    drops[i] = 0;
+                }
+                drops[i]++;
+            }
+        }
+        setInterval(drawMatrix, 50);
+
+        window.addEventListener("resize", () => {
+            canvas.width = window.offsetWidth;
+            canvas.height = window.offsetHeight;
+        });
+    </script>
 <?php include "assets/php/footer.php"; ?>
