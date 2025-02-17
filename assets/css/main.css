@@ -2654,6 +2654,20 @@ input, select, textarea {
 	animation: neonFlicker 1.5s infinite steps(10);
 }
 
+.wrong {
+	width: 100%;
+	background-color: red;
+	color: white;
+	text-align: center;
+}
+
+.fine {
+	width: 100%;
+	background-color: green;
+	color: white;
+	text-align: center;
+
+}
 
 @keyframes neonFlicker {
 	0%, 100% {
@@ -2690,3 +2704,4 @@ canvas {
 	width: 100%;
 	height: 100%;
 }
+

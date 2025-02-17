@@ -7,13 +7,14 @@ $header_content = '<li><a href="#welcome" id="top-link"><span class="icon solid 
                    ';
 $title = "MattyPersil Homepage";
 include "assets/php/header.php";
+
 ?>
 
 		<!-- Main -->
 			<div id="main">
-
 				<!-- Welcome -->
 					<section id="welcome" class="one dark cover">
+                        
 						<div class="container">
 
 							<header>

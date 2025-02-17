@@ -16,6 +16,18 @@
 <!-- Header -->
 <div id="header">
 
+    <?php
+    session_start();
+
+    if (isset($_GET["alert"])) {
+        if($_GET["alert"] == 0) {
+            echo "<p class='wrong'>". $_GET["message"] ."</p>";
+        }
+        else{
+            echo "<p class='fine'>". $_GET["message"] ."</p>";
+
+        }
+    }?>
     <div class="top">
 
         <!-- Logo -->

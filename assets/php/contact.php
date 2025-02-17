@@ -12,7 +12,13 @@
             donec curae mus. Eleifend id porttitor ac ultricies lobortis sem nunc
             orci ridiculus faucibus a consectetur. Porttitor curae mauris urna mi dolor.</p>
 
-        <form method="post" action="#">
+        <?php
+        session_start();
+        $token = uniqid();
+        $_SESSION['token'] = $token;
+
+        ?>
+        <form method="post" action="/actions/send-form.php">
             <div class="row">
                 <div class="col-6 col-12-mobile"><input type="text" name="name" placeholder="Name" /></div>
                 <div class="col-6 col-12-mobile"><input type="text" name="email" placeholder="Email" /></div>
@@ -22,6 +28,7 @@
                 <div class="col-12">
                     <input type="submit" value="Send Message" />
                 </div>
+                <input type="hidden" name="token" value="<?php echo $token?>">
             </div>
         </form>
 
