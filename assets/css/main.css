@@ -2637,18 +2637,54 @@ input, select, textarea {
 
 	}
 
-
-
 #matrixContainer {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	height: 200px; /* Hauteur de la bannière */
+	height: 150px; /* Hauteur de la bannière */
 	overflow: hidden;
 	position: relative;
-	width: 100%;
+	width: 90%; /* Ajuste la largeur */
+	margin: 50px auto; /* Centre l'élément */
 	background: black;
+	border: 3px solid #0F0; /* Bordure verte façon Matrix */
+	border-radius: 75px; /* Coins arrondis */
+	box-shadow: 0 0 15px #0F0; /* Effet lumineux */
+
+	animation: neonFlicker 1.5s infinite steps(10);
 }
+
+
+@keyframes neonFlicker {
+	0%, 100% {
+		border-color: #0F0;
+		box-shadow: 0 0 10px #0F0, 0 0 20px #0F0, 0 0 30px #0F0;
+		transform: translate(0, 0);
+	}
+	10% {
+		border-color: #0A0;
+		box-shadow: 0 0 5px #0F0, 0 0 10px #0F0;
+	}
+	20% {
+		border-color: #0F0;
+		box-shadow: 0 0 20px #0F0, 0 0 40px #0F0;
+		transform: translate(-1px, 1px);
+	}
+	50% {
+		border-color: #090;
+		box-shadow: 0 0 5px #0F0;
+		transform: translate(1px, -1px);
+	}
+	65% {
+		transform: translate(-2px, 2px);
+	}
+	80% {
+		box-shadow: 0 0 30px #0F0, 0 0 60px #0F0;
+		transform: translate(0, 0);
+	}
+}
+
+
 
 canvas {
 	width: 100%;
