@@ -33,7 +33,7 @@ function startmatrixeffect(){
     function drawMatrix() {
         matrixProperties.getCtx().fillStyle = "rgba(0, 0, 0, 0.05)";
         matrixProperties.getCtx().fillRect(0, 0, matrixProperties.getCanvas().width, matrixProperties.getCanvas().height);
-        matrixProperties.getCtx().fillStyle = "#0F0";
+        matrixProperties.getCtx().fillStyle = "#fc49f3";
         matrixProperties.getCtx().font = `${matrixProperties.getFontSize()}px monospace`;
 
         for (let i = 0; i < matrixProperties.getDrops().length; i++) {

@@ -2671,29 +2671,31 @@ input, select, textarea {
 
 @keyframes neonFlicker {
 	0%, 100% {
-		border-color: #0F0;
-		box-shadow: 0 0 10px #0F0, 0 0 20px #0F0, 0 0 30px #0F0;
+		border-color: #fc49f3;
+		box-shadow: 0 0 10px #fc49f3, 0 0 20px #fc49f3, 0 0 30px #fc49f3;
 		transform: translate(0, 0);
 	}
 	10% {
-		border-color: #0A0;
-		box-shadow: 0 0 5px #0F0, 0 0 10px #0F0;
+		border-color: #d638c2;
+		box-shadow: 0 0 5px #fc49f3, 0 0 10px #d638c2;
 	}
 	20% {
-		border-color: #0F0;
-		box-shadow: 0 0 20px #0F0, 0 0 40px #0F0;
+		border-color: #fc49f3;
+		box-shadow: 0 0 20px #fc49f3, 0 0 40px #ff5cf5;
 		transform: translate(-1px, 1px);
 	}
 	50% {
-		border-color: #090;
-		box-shadow: 0 0 5px #0F0;
+		border-color: #c12aa2;
+		box-shadow: 0 0 5px #ff5cf5, 0 0 15px #fc49f3;
 		transform: translate(1px, -1px);
 	}
 	65% {
 		transform: translate(-2px, 2px);
+		border-color: #ff5cf5;
+		box-shadow: 0 0 15px #fc49f3, 0 0 25px #c12aa2;
 	}
 	80% {
-		box-shadow: 0 0 30px #0F0, 0 0 60px #0F0;
+		box-shadow: 0 0 30px #ff5cf5, 0 0 60px #fc49f3;
 		transform: translate(0, 0);
 	}
 }
@@ -2705,3 +2707,7 @@ canvas {
 	height: 100%;
 }
 
+
+.text-left {
+	text-align: left;
+}
