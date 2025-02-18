@@ -65,7 +65,7 @@ include "assets/php/header.php";
                                 <br>
                                 To illustrate   this part, i am creating a home made infrastructure hosting a few virtual machines : websites,
                                 a discord bot and monitoring with the help of the Proxmox Linux distribution and virtual machines under
-                                Debian distributions.
+                                Debian distribution.
                             </p>
 
 						</div>

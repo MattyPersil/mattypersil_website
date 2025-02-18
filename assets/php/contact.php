@@ -7,10 +7,11 @@
             <h2>Contact</h2>
         </header>
 
-        <p>Elementum sem parturient nulla quam placerat viverra
-            mauris non cum elit tempus ullamcorper dolor. Libero rutrum ut lacinia
-            donec curae mus. Eleifend id porttitor ac ultricies lobortis sem nunc
-            orci ridiculus faucibus a consectetur. Porttitor curae mauris urna mi dolor.</p>
+        <p>
+            Please fill out this form if you wish to contact me, <br>
+            If you are curious on how this form works and where this is sent,
+            you can checkout it's code on my git repository for this site ;)
+        </p>
 
         <?php
         session_start();
@@ -20,10 +21,11 @@
         ?>
         <form method="post" action="/actions/send-form.php">
             <div class="row">
-                <div class="col-6 col-12-mobile"><input type="text" name="name" placeholder="Name" /></div>
-                <div class="col-6 col-12-mobile"><input type="text" name="email" placeholder="Email" /></div>
+                <div class="col-6 col-12-mobile">
+                    <input type="text" name="name" placeholder="Name" maxlength="20" required/></div>
+                <div class="col-6 col-12-mobile"><input type="email" name="email" placeholder="Email" required/></div>
                 <div class="col-12">
-                    <textarea name="message" placeholder="Message"></textarea>
+                    <textarea name="message" placeholder="Message" maxlength="750" required></textarea>
                 </div>
                 <div class="col-12">
                     <input type="submit" value="Send Message" />
