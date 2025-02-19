@@ -2641,15 +2641,15 @@ input, select, textarea {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	height: 150px; /* Hauteur de la bannière */
+	height: 150px;
 	overflow: hidden;
 	position: relative;
-	width: 90%; /* Ajuste la largeur */
-	margin: 50px auto; /* Centre l'élément */
+	width: 90%;
+	margin: 50px auto;
 	background: black;
-	border: 3px solid #0F0; /* Bordure verte façon Matrix */
-	border-radius: 75px; /* Coins arrondis */
-	box-shadow: 0 0 15px #0F0; /* Effet lumineux */
+	border: 3px solid #fc49f3;
+	border-radius: 75px;
+	box-shadow: 0 0 15px #fc49f3;
 
 	animation: neonFlicker 1.5s infinite steps(10);
 }

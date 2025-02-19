@@ -82,10 +82,12 @@ include "assets/php/header.php";
 
                         <h3>Who am i ?</h3>
                         <div class="row">
-                            <img src="images/avatar.jpg" alt="" class = 'col-2'/>
-
-                            <p class="col-10 text-left">
-                                Text
+                            <img src="images/avatar.jpg" alt="" class = 'col-3'/>
+                            <p class="col-9 text-left">
+                                I'm an 18 years old student located in Nantes - France. Some might describe me as
+                                funny, joyful or maybe even smart, but i see myself as someone quite introverted who
+                                simply does their best to make people smile and get the job done.  To sum it up, working
+                                with me isn't too bad, and one way or another the job will get done !
                             </p>
                         </div>
 
