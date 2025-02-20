@@ -2247,9 +2247,12 @@ input, select, textarea {
 			}
 
 			#main > section.one {
-				background-color: #8d8191;
+				background-color: #fbf9fc;
+			}
+
+			#main > section.start {
 				background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)),
-								url("../../images/banner.jpg");
+				url("../../images/banner.jpg");
 			}
 
 			#main > section.two {

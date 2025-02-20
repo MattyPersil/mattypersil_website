@@ -1,6 +1,6 @@
 <?php
 $header_content = '<li><a href="#welcome" id="top-link"><span class="icon solid fa-home">Welcome</span></a></li>
-                   <li><a href="#introduction" id="portfolio-link"><span class="icon solid fa-th">What do i do ?</span></a></li>
+                   <li><a href="#introduction" id="introduction-link"><span class="icon solid fa-th">What do i do ?</span></a></li>
                    <li><a href="#about" id="about-link"><span class="icon solid fa-user">About Me</span></a></li>
                    <li><a href="#documentation" id="doc-link"><span class="icon solid fa-book">Documentation</span></a></li>  
                    <li><a href="#contact" id="contact-link"><span class="icon solid fa-envelope">Contact</span></a></li>
@@ -13,7 +13,7 @@ include "assets/php/header.php";
 		<!-- Main -->
 			<div id="main">
 				<!-- Welcome -->
-					<section id="welcome" class="one dark cover">
+					<section id="welcome" class="one dark cover start">
                         
 						<div class="container">
 
@@ -82,18 +82,46 @@ include "assets/php/header.php";
 
                         <h3>Who am i ?</h3>
                         <div class="row">
-                            <img src="images/avatar.jpg" alt="" class = 'col-3'/>
+                            <div class = 'image col-3'><img src="images/avatar.jpg" alt="" /></div>
                             <p class="col-9 text-left">
                                 I'm an 18 years old student located in Nantes - France. Some might describe me as
                                 funny, joyful or maybe even smart, but i see myself as someone quite introverted who
                                 simply does their best to make people smile and get the job done.  To sum it up, working
-                                with me isn't too bad, and one way or another the job will get done !
+                                with me isn't too bad, one way or another the job will get done !
+                                <br>
+                                I've always been interested by technology and computers, using mine to play games, mod
+                                them, testing technologies, etc... Moreover i also really loved anything that involved
+                                logic and maybe calculation, for instance i was one of the best student in highschool in
+                                science-related classes. I just love understanding how things work, or why they sometimes
+                                don't.
                             </p>
                         </div>
 
                         <h3>Beyond tech</h3>
                         <p>
-                            Text
+                            Beyond tech, i have always been interested in sci-fi and fantasy genres, from films to books
+                            to games, if i should name a few of my favorites films or games i would talk about Matrix,
+                            Inception, Lord of the rings, Assassin's creed, Stray or the anime series Sword Art Online.
+                            <br>
+                            I also love solving puzzles and automating tasks, playing games like Shapez.io or Factorio,
+                            where i love automating tasks, optimizing and improving them.
+                            <br>
+                            In another kind of activities, i love listening to music, and even practice music myself since
+                            i play a bit of piano on my freetime since a few years. You could find me listening to almost
+                            any kind of music, from some Lo-fi, to Rock, Hardrock, Metal, to Japanese vocaloid, passing by
+                            electro and hard music. Some of my favorites artists are :
+                            <a href="https://open.spotify.com/artist/6nhHInOnQSWKRxntTHBH29?si=AXLh3tBxTAe-Y4MT_LGm7A"
+                               target="_blank">
+                                Futakuchi Mana
+                            </a>,
+                            <a href="https://open.spotify.com/artist/3OpqU68JpZlzvjAJj3B2Da?si=106eAvpgSDiMOL3F4rg0Vg"
+                            target="_blank">
+                                Alestorm
+                            </a>, and
+                            <a href="https://open.spotify.com/artist/6mEQK9m2krja6X1cfsAjfl?si=qF6t_U9xQK6nD25CgGcTUg"
+                            target="_blank">
+                                Ado
+                            </a>.
                         </p>
 
                         <h3>Looking ahead</h3>

@@ -4,7 +4,9 @@
 
     <!-- Copyright -->
     <ul class="copyright">
-        <li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a> and myself </li>
+        <li>&copy; Untitled. All rights reserved.</li>
+        <li>Design: <a href="http://html5up.net" target="_blank">HTML5 UP</a> and myself </li>
+        <li><a href="sources.php">Sources / Credits</a></li>
     </ul>
 
 </div>
