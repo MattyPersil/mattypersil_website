@@ -30,7 +30,7 @@
 
         <!-- Logo -->
         <div id="logo">
-            <span class="image avatar48"><img src="images/avatar.jpg" alt="" /></span>
+            <span class="image avatar48"><img src="images/avatar.webp" alt="" /></span>
             <h1 id="title"><a href="/index.php">MattyPersil</a></h1>
             <p>CS Student</p>
         </div>

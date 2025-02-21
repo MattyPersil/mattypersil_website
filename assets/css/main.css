@@ -2252,7 +2252,7 @@ input, select, textarea {
 
 			#main > section.start {
 				background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)),
-				url("../../images/banner.jpg");
+				url("../../images/banner.webp");
 			}
 
 			#main > section.two {
@@ -2400,10 +2400,6 @@ input, select, textarea {
 
 			body, input, textarea, select {
 				font-size: 16pt;
-			}
-
-			header br {
-				display: none;
 			}
 
 			.container {

@@ -1,7 +1,6 @@
 <?php
 
-$header_content = '<li><a href="#subject" id="top-link"><span class="icon solid fa-home">Subject</span></a></li>
-                   <li><a href="#template" id="template-link"><span class="icon solid fa-tv">Template</span></a></li>
+$header_content = '<li><a href="#template" id="template-link"><span class="icon solid fa-tv">Template</span></a></li>
                    <li><a href="#images" id="umages-link"><span class="icon solid fa-images">Images</span></a></li>
                    ';
 $title = "Sources";
@@ -17,7 +16,8 @@ include "assets/php/header.php";
         <div class="container">
 
             <h2>This page is dedicated to the sources used for this website</h2>
-
+            <br>
+            <h3><a href="index.php">Return to main page</a></h3>
         </div>
     </section>
 
@@ -51,10 +51,10 @@ include "assets/php/header.php";
 
                 <div class="col-4 col-12-mobile">
                     <article class="item">
-                        <div class="image fit"><img src="images/avatar.jpg" alt="" /></div>
+                        <div class="image fit"><img src="images/avatar.webp" alt="" /></div>
                         <header>
                             <h3>
-                                <a href="images/avatar.jpg" target="_blank">Xayah&Rakan</a>
+                                <a href="images/avatar.webp" target="_blank">Xayah&Rakan</a>
                             </h3>
 
                             <p>
@@ -81,10 +81,10 @@ include "assets/php/header.php";
                 </div>
                 <div class="col-4 col-12-mobile">
                     <article class="item">
-                        <div class="image fit"><img src="images/banner.jpg" alt=""></div>
+                        <div class="image fit"><img src="images/banner.webp" alt=""></div>
                         <header>
                             <h3>
-                                <a href="images/banner.jpg" target="_blank">Banner</a>
+                                <a href="images/banner.webp" target="_blank">Banner</a>
                             </h3>
                             <p>
                                 Generated using <a href="https://www.adobe.com/fr/products/firefly.html" target="_blank">

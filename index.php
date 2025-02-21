@@ -82,7 +82,7 @@ include "assets/php/header.php";
 
                         <h3>Who am i ?</h3>
                         <div class="row">
-                            <div class = 'image col-3'><img src="images/avatar.jpg" alt="" /></div>
+                            <div class = 'image col-3'><img src="images/avatar.webp" alt="" /></div>
                             <p class="col-9 text-left">
                                 I'm an 18 years old student located in Nantes - France. Some might describe me as
                                 funny, joyful or maybe even smart, but i see myself as someone quite introverted who
@@ -138,8 +138,6 @@ include "assets/php/header.php";
 							<header>
 								<h2>Documentation</h2>
 							</header>
-
-							<a href="#" class="image featured"><img src="images/pic08.jpg" alt="" /></a>
 
 							<p>Tincidunt eu elit diam magnis pretium accumsan etiam id urna. Ridiculus
 							ultricies curae quis et rhoncus velit. Lobortis elementum aliquet nec vitae
